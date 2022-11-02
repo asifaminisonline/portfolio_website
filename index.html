@@ -201,7 +201,31 @@
           />
         </h3>
       </ul>
-    </section>    
+    </section>        
+    <footer class="background-style">
+      <section class="contact-form" id="contact">
+        <h2 class="contact-title">Contact me</h2>
+        <p class="p-contact">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <form class="contact-info" action="https://formspree.io/f/mbjbpglg" method="POST" id="form">
+          <label for="name"></label>
+          <input type="text" name="Name" class="inp-form" maxlength="30" required placeholder="Name" id="name" />
+          <label for="email"></label>
+          <input type="email" name="_replyTo" class="inp-form" id="email" placeholder="Email" required />
+          <label for="message"></label>
+          <textarea name="message" class="text-area" cols="30" rows="10" maxlength="500"
+            placeholder="Write your message here" required id="message"></textarea>
+          <small id="message-success" class="hidden">From Submitted</small>
+          <input type="submit" class="btncontact" value="Get It Touch" />
+        </form>
+        <div class="contact-bar">
+          <img class="end-line" src="assets/Shape.png" alt=" end line icon" />
+        </div>
+      </section>
+    </footer>  
   </main> 
 </body>
 </html>
