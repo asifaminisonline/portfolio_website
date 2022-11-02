@@ -149,9 +149,9 @@ nav {
 }
 
 .catagories {
+  margin: 10px 0;
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 0;
 }
 
 .catagories > li {
@@ -242,3 +242,76 @@ nav {
   width: 40px;
   margin-right: 20px;
 }
+
+.contact {
+  margin-top: 113px;
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+}
+
+.contact-us {
+  background-image: url(./assets/contact\ form\ shapes-mobile.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 779px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-text {
+  padding-top: 80px;
+}
+
+.form-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 12px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.my-info {
+  color: #ebebff;
+  text-align: center;
+  padding: 0 24px 54px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form input {
+  height: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 327px;
+  border-radius: 8px;
+  padding: 18px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fff;
+  color: #172b4d;
+}
+
+.contact-form textarea {
+  height: 170px;
+  padding: 15px 38px 15px 16px;
+}
+
+.contact-form *:focus {
+  outline: none;
+  border: 1px solid #cfd8dc;
+  box-shadow: 0 0 10px #719ece;
+}
+
+
