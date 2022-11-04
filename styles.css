@@ -38,6 +38,7 @@ nav {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
+  transform: rotate(-5deg);
 }
 
 .hero {
@@ -349,4 +350,14 @@ nav {
 .end-line {
   margin-top: 70px;
   margin-bottom: 2px;
+}
+
+.preview img:hover {
+  transform: scale(1.02);
+  transition-duration: 1s;
+}
+
+.desktop-preview img:hover {
+  transform: scale(1.02);
+  transition-duration: 1s;
 }
