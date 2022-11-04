@@ -27,6 +27,10 @@ nav {
   padding: 8px 20px;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .logo {
   width: 110px;
   height: 20px;
@@ -76,6 +80,10 @@ nav {
   padding: 15px 25px 0 10px;
   align-items: center;
   color: #505f79;
+}
+
+.desktop-card {
+  display: none;
 }
 
 .work {
@@ -152,6 +160,14 @@ nav {
   margin: 10px 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.catagories .special {
+  display: none;
+}
+
+.catagories .special {
+  display: none;
 }
 
 .catagories > li {
@@ -247,7 +263,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url(assets/backgroundform.png);
+  background-image: url(assets/background2.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 61%;
@@ -255,6 +271,7 @@ nav {
   background-position-y: 20px;
   border-radius: 90px 0 0 0;
   margin-top: 103px;
+  width: 100%;
 }
 
 .contact-title {
@@ -337,3 +354,5 @@ nav {
   margin-top: 70px;
   margin-bottom: 2px;
 }
+
+
