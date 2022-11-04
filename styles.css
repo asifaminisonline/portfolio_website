@@ -7,7 +7,7 @@
   font-family: "poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
-ul,
+ol,
 a {
   text-decoration: none;
   list-style: none;
@@ -25,6 +25,10 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 8px 20px;
+}
+
+.desktop-nav {
+  display: none;
 }
 
 .logo {
@@ -67,7 +71,7 @@ nav {
   padding: 10px 10px 0 10px;
 }
 
-.social ul {
+.social ol {
   display: flex;
   padding-top: 10px;
 }
@@ -76,6 +80,10 @@ nav {
   padding: 15px 25px 0 10px;
   align-items: center;
   color: #505f79;
+}
+
+.desktop-card {
+  display: none;
 }
 
 .work {
@@ -152,6 +160,10 @@ nav {
   margin: 10px 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+.catagories .special {
+  display: none;
 }
 
 .catagories > li {
@@ -247,7 +259,7 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url(assets/backgroundform.png);
+  background-image: url(assets/background2.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 61%;
@@ -255,6 +267,7 @@ nav {
   background-position-y: 20px;
   border-radius: 90px 0 0 0;
   margin-top: 103px;
+  width: 100%;
 }
 
 .contact-title {
