@@ -166,10 +166,6 @@ nav {
   display: none;
 }
 
-.catagories .special {
-  display: none;
-}
-
 .catagories > li {
   padding: 8px;
   list-style: none;
@@ -354,5 +350,3 @@ nav {
   margin-top: 70px;
   margin-bottom: 2px;
 }
-
-
