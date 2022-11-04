@@ -39,6 +39,9 @@ nav {
   font-size: 18px;
   color: #6070ff;
 }
+.logo{
+  transform: rotate(-5deg);
+}
 
 .hero {
   background-image: url(./assets/header-shapes\ mobile.png);
@@ -350,3 +353,4 @@ nav {
   margin-top: 70px;
   margin-bottom: 2px;
 }
+
