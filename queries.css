@@ -1,6 +1,7 @@
 
 /* header */
 
+
 @media only screen and (min-width: 768px) {
   .container {
     height: 100%;
@@ -79,7 +80,7 @@
     font-size: 20px;
   }
 
-  .social ul {
+  .social ol {
     margin-left: 200px;
   }
 
@@ -106,7 +107,7 @@
   .preview img {
     margin-top: 10px;
     width: 100%;
-    height: 100%;
+    height: 350px;
   }
 
   .desktop-details,
@@ -236,7 +237,7 @@
   }
 
   .about-left-section .connect_button,
-  .about-left-section .social ul {
+  .about-left-section .social ol {
     margin: 0;
   }
 

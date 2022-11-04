@@ -7,7 +7,7 @@
   font-family: "poppins", Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
-ul,
+ol,
 a {
   text-decoration: none;
   list-style: none;
@@ -71,7 +71,7 @@ nav {
   padding: 10px 10px 0 10px;
 }
 
-.social ul {
+.social ol {
   display: flex;
   padding-top: 10px;
 }
