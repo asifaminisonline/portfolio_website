@@ -30,6 +30,10 @@
     font-size: 20px;
   }
 
+  .social a {
+    padding: 15px 25px 15px 10px;
+  }
+
   .desktop-nav {
     display: flex;
     float: left;
@@ -40,7 +44,8 @@
     display: inline-flex;
     padding: 0 20px;
   }
-  .desktop-nav ul li a{
+
+  .desktop-nav ul li a {
     color: #344563;
   }
 
@@ -78,14 +83,6 @@
     margin-left: 200px;
   }
 
-  .social a {
-    padding: 15px 25px 15px 10px;
-  }
-
-  /* end header */
-
-  /* card */
-
   .desktop-card,
   .card {
     background-color: white;
@@ -93,6 +90,7 @@
     height: 400px;
     width: 85%;
     padding: 24px;
+
     /* margin-bottom: 70px; */
     border-radius: 24px;
   }
