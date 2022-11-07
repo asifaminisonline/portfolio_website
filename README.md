@@ -30,7 +30,7 @@ Clone this repository by using the command line :
 
 ### Deployment
 
-click here to visit: https://asifaminisonline.github.io/portfolio_website/
+click here to visit: https://asifaminisonline.github.io/
 
 ## Authors
 
