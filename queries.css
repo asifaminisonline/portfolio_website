@@ -233,6 +233,10 @@
     margin: 50px 0 0 80px;
   }
 
+  .about .about_details {
+    font-size: 20px;
+  }
+
   .about-left-section .connect_button,
   .about-left-section .social ol {
     margin: 0;
