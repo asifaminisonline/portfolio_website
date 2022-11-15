@@ -80,9 +80,6 @@ a {
 .mobile-nav.is-active {
   left: 0;
 }
-.mobile-nav ul li{
-  list-style: none;
-}
 
 .mobile-nav a {
   display: block;
@@ -256,6 +253,10 @@ nav {
   background: #ebebff;
   font-size: 14px;
   line-height: 16px;
+}
+
+.mobile-nav ul li {
+  list-style: none;
 }
 
 .default_button {
