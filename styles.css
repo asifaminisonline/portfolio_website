@@ -80,6 +80,9 @@ a {
 .mobile-nav.is-active {
   left: 0;
 }
+.mobile-nav ul li{
+  list-style: none;
+}
 
 .mobile-nav a {
   display: block;
@@ -231,6 +234,7 @@ nav {
   margin: 10px 0;
   padding: 10px 0;
   color: #344563;
+  font-size: 18px;
 }
 
 .catagories {
@@ -282,6 +286,7 @@ nav {
 
 .about .about_details {
   color: #344563;
+  font-size: 18px;
 }
 
 .about_ul {
