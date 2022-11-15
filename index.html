@@ -10,12 +10,12 @@
 </head>
 <body>
   <main class="container">
-  
     <header class="header" id="fixed">
       <nav>
-        <a href="#" target="_parent" class="logo">My Portfolio</a>
-        <img src="./assets/Union.png" class="mobile_menu_icon"/>
-      </nav>
+      <a href="#" target="_parent" class="logo">My Portfolio</a>
+        <button class="hamburger" id="onclick">
+          <div class="bar"></div>
+        </button>
       <div class="desktop-nav">
         <ul>
           <li><a href="#">Portfolio</a></li>
@@ -23,9 +23,12 @@
           <li><a href="#">Contact</a></li> 
         </ul>
       </div>
+    </nav>
+    
     </header>
+    
 
-    <section>
+    <section id="portfolio">
       <div class="hero">
         <h1 class="author">I’m Asif Amin Glad to see you!</h1>
         <p class="bio">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
@@ -174,7 +177,7 @@
     </section>
     <!-- end of work section-->
 
-    <section class="about">
+    <section class="about" id="About">
       <div class="about-left-section">
       <h2 class="headline_title">About Myself</h2>
       <p class="about_details">
@@ -267,5 +270,6 @@
       </section>
     </footer> 
   </main> 
+  <script src="./main.js"></script>
 </body>
 </html>
