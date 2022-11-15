@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -21,12 +21,22 @@ a {
   padding-top: 30px;
 }
 
-
+.hamburger {
+  z-index: 999;
+  position: relative;
+  display: block;
+  width: 40px;
+  cursor: pointer;
+  appearance: none;
+  background: #fff;
+  outline: none;
+  border: none;
+}
 
 .hamburger .bar,
 .hamburger::after,
 .hamburger::before {
-  content: '';
+  content: "";
   display: block;
   width: 40px;
   height: 5px;
