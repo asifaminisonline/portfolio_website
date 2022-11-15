@@ -21,7 +21,17 @@ a {
   padding-top: 30px;
 }
 
-
+.hamburger {
+  z-index: 999;
+  position: relative;
+  display: block;
+  width: 40px;
+  cursor: pointer;
+  appearance: none;
+  background: #fff;
+  outline: none;
+  border: none;
+}
 
 .hamburger .bar,
 .hamburger::after,
