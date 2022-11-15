@@ -153,6 +153,7 @@
     margin: 10px 0;
     padding: 10px 0;
     color: #344563;
+    font-size: 20px;
   }
 
   .desktop-catagories,
@@ -229,6 +230,10 @@
     width: 40%;
     height: 392px;
     margin: 50px 0 0 80px;
+  }
+
+  .about .about_details {
+    font-size: 20px;
   }
 
   .about-left-section .connect_button,
