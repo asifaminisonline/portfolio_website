@@ -11,14 +11,14 @@
     background-color: white;
   }
 
-  .mobile_menu_icon {
-    display: none;
-  }
-
   .header {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .logo {
