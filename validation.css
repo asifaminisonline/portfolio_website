@@ -19,3 +19,11 @@
     bottom: 22px;
      }
 
+  .text-danger {
+   padding-left: 10px;
+    color: darkred;
+    font-size: 15px;
+    font-weight:200 ;
+    position: relative;
+    bottom: 22px;
+  }
