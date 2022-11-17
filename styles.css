@@ -407,8 +407,8 @@ nav {
 .contact-bar {
   text-align: center;
 }
-.btn-container{
 
+.btn-container {
   display: flex;
   justify-content: left;
 }

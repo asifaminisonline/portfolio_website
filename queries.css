@@ -334,7 +334,8 @@
   .contact-bar {
     display: none;
   }
-  .btn-container{
+
+  .btn-container {
     display: flex;
     justify-content: center;
     position: relative;
@@ -349,7 +350,6 @@
     font-size: 17px;
     font-weight: 500;
     background-color: white;
-
   }
 
   .btncontact:hover {
