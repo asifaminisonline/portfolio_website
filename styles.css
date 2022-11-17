@@ -377,15 +377,15 @@ nav {
   padding: 20px 5px 5px 5px;
 }
 
-.inp-form {
-  width: 100%;
+.form-control {
+  width: 95%;
   height: 43px;
   margin-bottom: 20px;
   border-radius: 8px;
   font-size: 17px;
   border: none;
   color: #172b4d;
-  padding: 10px 15px;
+  padding: 20px 15px;
 }
 
 .hidden {
@@ -393,7 +393,7 @@ nav {
 }
 
 .text-area {
-  width: 100%;
+  width: 95%;
   height: 160px;
   font-size: 17px;
   color: #172b4d;
@@ -406,6 +406,11 @@ nav {
 
 .contact-bar {
   text-align: center;
+}
+.btn-container{
+
+  display: flex;
+  justify-content: left;
 }
 
 .btncontact {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="./validation.css"/>
     <title>Portfolio</title>
   </head>
   <body>
@@ -298,45 +299,25 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
-          <form
-            class="contact-info"
-            action="https://formspree.io/f/mbjbpglg"
-            method="POST"
-            id="form"
-          >
-            <label for="name"></label>
-            <input
-              type="text"
-              name="Name"
-              class="inp-form"
-              maxlength="30"
-              required
-              placeholder="Name"
-              id="name"
-            />
-            <label for="email"></label>
-            <input
-              type="email"
-              name="_replyTo"
-              class="inp-form"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <label for="message"></label>
-            <textarea
-              name="message"
-              class="text-area"
-              cols="30"
-              rows="10"
-              maxlength="500"
-              placeholder="Write your message here"
-              required
-              id="message"
-            ></textarea>
-            <small id="message-success" class="hidden">From Submitted</small>
-            <input type="submit" class="btncontact" value="Get It Touch" />
-          </form>
+          <form action="https://formspree.io/f/mbjbpglg"
+            method="POST" id="register-form">
+    <div class="form-group">
+        <input id="make" type="text" class="form-control" placeholder="Your Good Name"> 
+      <div id="username-feedback"></div>  
+    </div>
+    <div class="form-group">
+        <input id="email" type="text" class="form-control" placeholder="Your Email"> 
+        <div id="email-feedback"></div> 
+    </div>
+    <div class="form-group">
+        <textarea name="message" class="text-area" cols="30" rows="10" type="text"
+              placeholder="Write your message here(10-500 letters)" id="message"></textarea> 
+              <div id="message-feedback"></div>
+    </div> 
+    <div class="btn-container">
+    <button type="submit" class="btncontact">Get In Touch</button> 
+    </div>
+  </form> 
           <div class="contact-bar">
             <img class="end-line" src="assets/Shape.png" alt=" end line icon" />
           </div>
@@ -344,5 +325,7 @@
       </footer>
     </main>
     <script src="./main.js"></script>
+    <script src="./validation.js"></script>
+    <script src="./localstorage.js"></script>
   </body>
 </html>

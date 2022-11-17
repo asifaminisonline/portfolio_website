@@ -308,10 +308,10 @@
     padding: 20px 5px 5px 5px;
   }
 
-  .inp-form {
+  .form-control {
     width: 100%;
     height: 43px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-radius: 3px;
     font-size: 17px;
     border: none;
@@ -324,7 +324,7 @@
     height: 160px;
     font-size: 17px;
     color: #172b4d;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 3px;
@@ -333,6 +333,11 @@
 
   .contact-bar {
     display: none;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .btncontact {
@@ -344,6 +349,7 @@
     font-size: 17px;
     font-weight: 500;
     background-color: white;
+
   }
 
   .btncontact:hover {

@@ -1,0 +1,21 @@
+
+.is-form-valid{
+   border:1px solid limegreen;
+   border-left: 8px solid limegreen;
+   box-shadow: 0 0 5px limegreen; 
+}
+
+.is-form-invalid{
+    border:1px solid orangered;
+    border-left: 8px solid orangered;
+    box-shadow: 0 0 5px orangered; 
+ } 
+
+ .text-success{
+   padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    bottom: 22px;
+     }
+
