@@ -1,9 +1,7 @@
 let registrationForm =document.querySelector('#register-form');
 registrationForm.addEventListener('submit', function (event){
     if (! validateForm())
-    event.preventDefault();
-    
-    
+    event.preventDefault();   
 });
 
 let validateForm = () =>{
@@ -16,7 +14,7 @@ let validateForm = () =>{
 let checkUserName = () =>{
     let  inputEl = document.querySelector('#make');
     let inputFeedbackEl = document.querySelector('#username-feedback');
-    let regExp = /^[a-zA-Z]{3,20}$/;
+    let regExp = /^[a-zA-Z]/;
     if(regExp.test(inputEl.value)){
         makeValid(inputEl,inputFeedbackEl);
         return true
