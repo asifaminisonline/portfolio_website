@@ -1,3 +1,4 @@
+
 if(storageInfo){
     makeInput.value = storageInfo.make;
     emailInput.value = storageInfo.email;
@@ -13,8 +14,8 @@ return;
 }
 
 var storageInfo = {
-    make: make,
-    email: email
+    email: email,
+    make: make
 }
 localStorage.setItem("storageInfo", JSON.stringify(storageInfo));
 });
