@@ -1,29 +1,39 @@
 
-.is-form-valid {
-  border: 1px solid limegreen;
+/* .is-form-valid {
+  border: none;
   border-left: 8px solid limegreen;
-  box-shadow: 0 0 5px limegreen;
+  box-shadow:none;
 }
 
 .is-form-invalid {
-  border: 1px solid orangered;
+  border: none;
   border-left: 8px solid orangered;
-  box-shadow: 0 0 5px orangered;
+  box-shadow: none;
 }
 
 .text-success {
   padding-left: 10px;
-  color: #fff;
+  color: none;
   font-size: 14px;
   position: relative;
   bottom: 22px;
-}
+} */
 
 .text-danger {
-  padding-left: 10px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   width: 300px;
   color: darkred;
-  font-size: 15px;
-  font-weight: 200;
-  position: relative;
-  bottom: 22px;
-}
+  font-size: 16px;
+  font-weight: 700;
+   }
+   @media only screen and (min-width: 768px){
+      .text-danger {
+        font-size: 14px;
+        font-weight: 1000;
+         width: auto;
+        
+         }  
+   }

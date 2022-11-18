@@ -1,13 +1,13 @@
-var script = document.createElement("script");
-script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
-document.getElementsByTagName("head")[0].appendChild(script);
+const script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+document.getElementsByTagName('head')[0].appendChild(script);
 
-const menu_btn = document.querySelector(".hamburger");
-const mobile_nav = document.querySelector(".mobile-nav");
-menu_btn.addEventListener("click", function () {
-  menu_btn.classList.toggle("is-active");
-  mobile_nav.classList.toggle("is-active");
-  $(".mobile-nav ul li a").on("click", function () {
-    $("#onclick").click();
+const menuBtn = document.querySelector('.hamburger');
+const mobileNav = document.querySelector('.mobile-nav');
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('is-active');
+  mobileNav.classList.toggle('is-active');
+  $('.mobile-nav ul li a').on('click', () => {
+    $('#onclick').click();
   });
 });
