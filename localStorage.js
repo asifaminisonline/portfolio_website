@@ -1,24 +1,41 @@
-const makeInput = document.getElementById('make');
-const emailInput = document.getElementById('email');
+const userName = document.querySelector('#make');
+const userEmail = document.querySelector('#email');
+const userMessage = document.querySelector('#message');
 
-const storageInfo = JSON.parse(localStorage.getItem('storageInfo'));
-if (storageInfo) {
-  makeInput.value = storageInfo.make;
-  emailInput.value = storageInfo.email;
-}
-document
-  .getElementById('register-form')
-  .addEventListener('submit', () => {
-    const make = makeInput.value.trim();
-    const email = emailInput.value.trim();
+let formData = {
+  name: '',
+  email: '',
+  message: '',
+};
 
-    if (!make || !email) {
-      return;
-    }
+const loadFormData = () => {
+  const persistantData = localStorage.getItem('form');
+  if (persistantData) {
+    const data = JSON.parse(persistantData);
+    userName.value = data.name;
+    userEmail.value = data.email;
+    userMessage.value = data.message;
+    formData = data;
+  }
+};
 
-    const storageInf = {
-      email,
-      make,
-    };
-    localStorage.setItem('storageInfo', JSON.stringify(storageInf));
-  });
+const stringfyForm = () => {
+  const data = JSON.stringify(formData);
+  localStorage.setItem('form', data);
+};
+
+userName.addEventListener('input', () => {
+  formData.name = userName.value;
+  stringfyForm();
+});
+userEmail.addEventListener('input', () => {
+  formData.email = userEmail.value;
+  stringfyForm();
+});
+
+userMessage.addEventListener('input', () => {
+  formData.message = userMessage.value;
+  stringfyForm();
+});
+
+loadFormData();
