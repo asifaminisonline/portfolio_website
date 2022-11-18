@@ -1,0 +1,39 @@
+
+/* .is-form-valid {
+  border: none;
+  border-left: 8px solid limegreen;
+  box-shadow:none;
+}
+
+.is-form-invalid {
+  border: none;
+  border-left: 8px solid orangered;
+  box-shadow: none;
+}
+
+.text-success {
+  padding-left: 10px;
+  color: none;
+  font-size: 14px;
+  position: relative;
+  bottom: 22px;
+} */
+
+.text-danger {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  color: darkred;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-danger {
+    font-size: 14px;
+    font-weight: 1000;
+    width: auto;
+  }
+}
