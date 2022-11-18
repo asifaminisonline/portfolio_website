@@ -20,20 +20,20 @@
 } */
 
 .text-danger {
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   align-items: center;
-   width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 300px;
   color: darkred;
   font-size: 16px;
   font-weight: 700;
-   }
-   @media only screen and (min-width: 768px){
-      .text-danger {
-        font-size: 14px;
-        font-weight: 1000;
-         width: auto;
-        
-         }  
-   }
+}
+
+@media only screen and (min-width: 768px) {
+  .text-danger {
+    font-size: 14px;
+    font-weight: 1000;
+    width: auto;
+  }
+}
