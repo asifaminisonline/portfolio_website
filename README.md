@@ -3,11 +3,13 @@
 > This project is a portfolio website which is created using pure Html5 and Css3.
 > This project has both features its mobile friendly as well as desktop too.
 > This portfolio project is now hosted and the link is given in the deployement section.
+> In this project i have used eslint and css linter for checking errors.
 
 ## Built With
 
 - Html
 - Css
+- Js
 
 ## Getting Started
 

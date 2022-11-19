@@ -7,7 +7,6 @@ let formData = {
   email: '',
   message: '',
 };
-
 const loadFormData = () => {
   const persistantData = localStorage.getItem('form');
   if (persistantData) {
