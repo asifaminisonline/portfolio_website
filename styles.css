@@ -159,7 +159,7 @@ nav {
   color: #505f79;
 }
 
-.desktop-card {
+/* .desktop-card {
   display: none;
 }
 
@@ -253,7 +253,7 @@ nav {
   background: #ebebff;
   font-size: 14px;
   line-height: 16px;
-}
+} */
 
 .mobile-nav ul li {
   list-style: none;
@@ -440,7 +440,7 @@ nav {
   margin-bottom: 2px;
 }
 
-.preview img:hover {
+/* .preview img:hover {
   transform: scale(1.02);
   transition-duration: 1s;
 }
@@ -448,4 +448,4 @@ nav {
 .desktop-preview img:hover {
   transform: scale(1.02);
   transition-duration: 1s;
-}
+} */

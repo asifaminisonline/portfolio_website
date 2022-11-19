@@ -80,142 +80,7 @@
     margin-left: 200px;
   }
 
-  .desktop-card,
-  .card {
-    background-color: white;
-    display: flex;
-    height: 400px;
-    width: 85%;
-    padding: 24px;
 
-    /* margin-bottom: 70px; */
-    border-radius: 24px;
-  }
-
-  .desktop-preview,
-  .preview {
-    grid-column: 1/-1;
-    justify-self: center;
-    align-self: center;
-  }
-
-  .desktop-preview img,
-  .preview img {
-    margin-top: 10px;
-    width: 100%;
-    height: 350px;
-  }
-
-  .desktop-details,
-  .details {
-    grid-column: 1/-1;
-    align-self: center;
-    margin-left: 50px;
-    padding: 10px;
-  }
-
-  .desktop-title,
-  .title {
-    margin: 10px 0;
-    color: #172b4d;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-  }
-
-  .desktop-info,
-  .info {
-    display: flex;
-    overflow: hidden;
-    color: #7a869a;
-  }
-
-  .desktop-info_item,
-  .info_item {
-    margin-right: 15px;
-    list-style-position: inside;
-  }
-
-  .desktop-info_item:first-child,
-  .info_item:first-child {
-    font-weight: bold;
-    list-style: none;
-    color: #344563;
-  }
-
-  .desktop-info_item:last-child,
-  .info_item:last-child {
-    margin-right: 0;
-  }
-
-  .desktop-details_content,
-  .details_content {
-    width: 80%;
-    margin: 10px 0;
-    padding: 10px 0;
-    color: #344563;
-    font-size: 20px;
-  }
-
-  .desktop-catagories,
-  .catagories {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
-  }
-
-  .catagories .special {
-    display: flex;
-  }
-
-  .desktop-catagories ul li,
-  .catagories ul li {
-    padding: 8px;
-    color: #6070ff;
-    border-radius: 8px;
-    margin-right: 8px;
-    background: #ebebff;
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .desktop-default_button,
-  .default_button {
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 20px;
-    color: #396df2;
-    padding: 10px 20px;
-    background: #fff;
-    border-radius: 10px;
-    border: 1px solid #396df2;
-  }
-
-  .desktop-default_button:hover,
-  .default_button:hover {
-    color: #fff;
-    background: #396df2;
-  }
-
-  #order-4 {
-    order: 1;
-    flex-direction: row-reverse;
-  }
-
-  #order-2 {
-    order: 3;
-    flex-direction: row-reverse;
-  }
-
-  #order-1 {
-    order: 2;
-  }
-
-  #order-3 {
-    display: none;
-  }
-
-  /* end card */
 
   /* about */
   .about {
@@ -271,7 +136,7 @@
 
   .contact-form {
     background: #6070ff;
-    background-image: url(./assets/desktop/contact\ form\ background\ shapes.png);
+    background-image: url(./assets/desktop/contact\ form\ bakground\ shapes.png);
     width: 100%;
     height: 800px;
     background-repeat: no-repeat;
