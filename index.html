@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="queries.css" />
     <link rel="stylesheet" href="./validation.css"/>
+    <link rel="stylesheet" href="./popupModal.css">
     <title>Portfolio</title>
   </head>
   <body>
@@ -69,11 +70,51 @@
           </div>
         </div>
       </section>
-      
-      <div class="popup-modal">
-      <h2 class="popup">Here is the popup modal section</h2>
-
-      </div>
+      <!-- Work section -->
+      <main class="parent_main">
+        <section id="Portfolio" class="works">
+           <ul class="card-contents"></ul>
+         </section> 
+        </main>
+       <div class="modal vanish">
+         <div class="modal-content">
+           <span class="close">&times;</span>
+           <h2 class="project-title inner-project-title "></h2>
+           <div class="projectInformation inner-viewProject-info">
+             <p class="projectCanopy card-con">CANOPY</p>
+             <ul class="projectJob">
+               <li class="jobInformation card-role">Back End Dev</li>
+               <li class="jobInformation card-year">2015</li>
+             </ul>
+           </div>
+           <div class="ImgContainer">
+             <img src="#" class="inner-project-image" alt="Project Image 1" />
+           </div>
+           <div class="proj_view_desc_opened project-des">
+             <p class="inner-project-description project_full_desc"></p>
+             <div class="modal_view_desc">
+               <div class="project_tags_container project_tags_container_opened">
+                 <ul class="tags_flex inner-view-tag"></ul>
+               </div>
+               <div class="btn_containers">
+                 <ul class="btn_child_flex">
+                   <li class="btn_li">
+                     <form class="inner-btn-see-live" action="#">
+                       <button type="submit" class="view_project_btn view_btn_1">See live <img src="assets/desktop/live.png" alt="hamburger menu" class="btn_icon" /></button>
+                     </form>
+                     >
+                   </li>
+                   <li class="btn_li">
+                     <form class="inner-btn-view-src" action="#">
+                       <button type="submit" class="view_project_btn">See Source <img src="assets/desktop/see_source_btn.png" alt="hamburger menu" class="btn_icon" /></button>
+                     </form>
+                   </li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
       <!-- end of work section-->
 
       <section class="about" id="About">
@@ -163,7 +204,7 @@
         </div>
       </section>
       <footer class="background-style">
-        <section class="contact-form" id="contact">
+        <section class="contact-form ct_Fr" id="contact">
           <h2 class="contact-title">Contact me</h2>
           <p class="p-contact">
             If you have an application you are interested in developing, a
@@ -197,5 +238,7 @@
     <script src="./main.js"></script>
     <script src="./validation.js"></script>
     <script src="./localStorage.js"></script>
+    <script src="./popupModal.js"></script>
+
   </body>
 </html>
