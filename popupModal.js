@@ -15,20 +15,22 @@ const cardRole = document.querySelector('.card-role');
 
 const projectObject = [
   {
-    name: 'Facebook 360',
-    imageLink: 'assets/snapshoot-portfolio1.png',
-    description: 'Exploring the future of media in Facebooks first Virtual Reality app a place to discover and enjoy 360 photos and videos on Gear VR Exploring the future of media in Facebooks first Virtual Reality app a place to discover and enjoy 360 photos and videos on Gear VR',
+    name: 'ToDo List',
+    imageLink: 'assets/desktop/todo-list.png',
+    description:
+      "This is my portfolio website built as part of Microverse's project to showcase my skills in HTML5, CSS3, and JavaScript.",
     role: 'Full Stack Dev',
     technologies: ['html', 'css', 'javascript'],
-    year: '2015',
-    company: 'Facebook',
-    sourceLink: '#',
-    demoLink: '#',
+    year: '2022',
+    company: 'Microverse',
+    sourceLink: 'https://github.com/asifaminisonline/to-do-list-',
+    demoLink: 'https://asifaminisonline.github.io/to-do-list-/dist/',
   },
   {
     name: 'Uber Navigation',
     imageLink: 'assets/snapshoot-portfolio2.png',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     role: 'Uber',
     technologies: ['html', 'css', 'javascript', 'Ruby'],
     year: '2018',
@@ -39,7 +41,8 @@ const projectObject = [
   {
     name: 'Mulit-Post Stories',
     imageLink: 'assets/snapshoot-portfolio3.png',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     role: 'Full Stack Dev',
     technologies: ['html', 'css', 'javascript'],
     year: '2015',
@@ -50,7 +53,8 @@ const projectObject = [
   {
     name: 'Tonic',
     imageLink: 'assets/snapshoot-portfolio4.png',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     role: 'Back End Dev',
     technologies: ['html', 'css', 'javascript', 'Ruby'],
     year: '2015',
