@@ -27,7 +27,7 @@ const projectObject = [
     demoLink: 'https://asifaminisonline.github.io/to-do-list-/dist/',
   },
   {
-    name: 'Uber Navigation',
+    name: 'Ober Navigation',
     imageLink: 'assets/snapshoot-portfolio2.png',
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
